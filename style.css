@@ -276,15 +276,19 @@
   .content {
     flex-direction: column;
     gap: 40px;
-    padding: 120px 20px;
+    padding: 120px 5px;
     align-items: center;
     text-align: center;
+  }
+  .paragraph {
+    margin-right: 20px;
   }
   .image-wrapper {
     margin: auto;
     width: 260px;
     height: 260px;
     padding: 10px;
+    margin-right: 40px;
   }
   #profile {
     width: 240px;
@@ -292,11 +296,18 @@
   }
   .text-head {
     font-size: 28px;
+    margin-right: 20px;
   }
   .area {
     flex-direction: column;
     gap: 40px;
     align-items: center;
+  }
+  .fencing {
+    margin-left: 25px;
+  }
+  .heading {
+    margin-left: 60px;
   }
   .picture,
   .second-picture {
